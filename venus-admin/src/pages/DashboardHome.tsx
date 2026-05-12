@@ -1,3 +1,5 @@
+// Página principal do dashboard, com sidebar e área de conteúdo dinâmico para produtos, categorias e banners.
+
 import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { 

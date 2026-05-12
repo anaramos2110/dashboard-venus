@@ -1,3 +1,5 @@
+// Página do carrossel de banners, onde o usuário poderá cadastrar os banners que aparecerão na página inicial do site.
+
 export default function Produtos() {
   return (
     <div className="bg-white rounded-[2.5rem] p-8 shadow-sm">

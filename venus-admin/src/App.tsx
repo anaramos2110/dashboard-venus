@@ -1,9 +1,11 @@
+// Página principal do Admin, onde configuramos as rotas e a estrutura geral do layout
+
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 // import Sidebar from './components/Sidebar'; // Vamos criar esse componente
-import DashboardHome from './pages/DashboardHome';
-import Produtos from './pages/Produtos';
-import Categorias from './pages/Categorias';
-import Banners from './pages/Banners';
+import DashboardHome from '@/pages/DashboardHome';
+import Produtos from '@/pages/Produtos';
+import Categorias from '@/pages/Categorias';
+import Banners from '@/pages/Banners';
 
 export default function App() {
   return (
